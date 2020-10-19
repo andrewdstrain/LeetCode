@@ -61,10 +61,4 @@ public class Solution {
 
         return left() + up() + right() + down();
     }
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        int r = sol.numRookCaptures(new char[][] {{'.','.','.','.','.','.','.','.'},{'.','.','.','.','p','.','p','.'},{'.','p','.','.','.','.','.','.'},{'.','p','B','.','R','.','B','p'},{'.','p','.','.','.','B','.','.'},{'.','.','p','.','.','p','.','.'},{'.','.','.','.','.','.','.','.'},{'.','.','.','.','.','.','.','.'}});
-        System.out.println(r);
-    }
 }
